@@ -8,7 +8,7 @@ We adopt several openly available implementations for these heuristics:
 
 The code can be run with a single thread or multithreading;
 The variable "MULTI_THREAD_FLAG" in the file const.h indicates whether multithreading is used:
-  MULTI_THREAD_FLAG = 0 : single thread;
+  MULTI_THREAD_FLAG = 0 : single thread;\
   MULTI_THREAD_FLAG = 1 : multithreading.
 
 To run this program, an example command will be:
