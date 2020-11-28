@@ -12,7 +12,7 @@ We adopt several openly available implementations for these heuristics:
 
 It should be noted that BFI algorithm shuffles the rows and columns of the target matrix, and then applies BP algorithm (Paar’s algorithms for large matrices) to
 find a better solution. In fact, we can take the product matrix obtained by leftmutiplying and right-multiplying random permutation matrices with the target matrix as the input of any other heuristics. Therefore, in this paper we modify BFI algorithm, and combine their method with all the
-other heuristics.
+other heuristics such as RPaar1, BP, RNBP, A1 and A2.
 
 The code can be run with a single thread or multithreading;
 
